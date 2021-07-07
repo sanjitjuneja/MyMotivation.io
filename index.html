@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <img src="./preloader.gif" alt="preloader" />
+    </div>
+    <!-- header -->
+    <header>
+      <video muted autoplay loop class="video-container">
+        <source id="random-video" src="./videos/0.mp4" type="video/mp4" />
+      </video>
+      <h1 class="quote" id="quoteDisplay"></h1>
+      <!-- video play/pause -->
+      <!-- <button class="switch-btn">
+        <span>
+          play
+        </span>
+        <span>
+          pause
+        </span>
+        <span class="switch"></span>
+      </button> -->
+      <!-- video play/pause -->
+      <button class="btn-play-pause">Pause Video</button>
+      <!-- quote/video shuffle -->
+      <button class="btn-shuffle">Shuffle</button>
+      <!-- website title -->
+      <h4 class="app-title">Motivational Quote and Video Generator</h4>
+      <!-- signature -->
+      <h4 class="signature">Created By: <a href="http://sanjitjuneja.me/" target="_blank" rel="noopener noreferrer">Sanjit Juneja</a></h4>
+    </header>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
