@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Video</title>
+    <title>My Motivation</title>
 
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
   </head>
   <body>
     <!-- preloader -->
@@ -15,23 +16,15 @@
     </div>
     <!-- header -->
     <header>
-      <video muted autoplay loop class="video-container">
-        <source id="random-video" src="./videos/0.mp4" type="video/mp4" />
-      </video>
+      <!-- random video -->
+      <video id="random-video" muted autoplay loop playsinline class="video-container" ></video>
+      <!-- random quote -->
       <h1 class="quote" id="quoteDisplay"></h1>
-      <!-- video play/pause -->
-      <!-- <button class="switch-btn">
-        <span>
-          play
-        </span>
-        <span>
-          pause
-        </span>
-        <span class="switch"></span>
-      </button> -->
-      <!-- video play/pause -->
+      <!-- video play/pause button -->
+      <button class="btn-hide-items">Hide Items</button>
+      <!-- video play/pause button -->
       <button class="btn-play-pause">Pause Video</button>
-      <!-- quote/video shuffle -->
+      <!-- quote/video shuffle button -->
       <button class="btn-shuffle">Shuffle</button>
       <!-- website title -->
       <h4 class="app-title">Motivational Quote and Video Generator</h4>
@@ -39,6 +32,6 @@
       <h4 class="signature">Created By: <a href="http://sanjitjuneja.me/" target="_blank" rel="noopener noreferrer">Sanjit Juneja</a></h4>
     </header>
     <!-- javascript -->
-    <script src="app.js"></script>
+    <script language='javascript' type="text/javascript" src="app.js"></script>
   </body>
 </html>
