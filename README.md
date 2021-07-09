@@ -1,4 +1,4 @@
-# Motivational-VIdeo-Quote-Generator
+# MyMotivation.io
 
 Check out the website: https://www.mymotivation.io/
 
